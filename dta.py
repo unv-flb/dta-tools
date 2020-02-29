@@ -177,7 +177,7 @@ def main():
 	f = Figlet(font='standard')
 	print(f.renderText('DTA TOOLS'))
 
-	print(bcolors.WARNING + "pre-alpha"+ bcolors.ENDC)
+	print(bcolors.WARNING + "Version:1.0"+ bcolors.ENDC)
 	print("")
 
 	menus_lists =['[1] Server(Linux & Windows)','[2] CMS','[3] Basic LFI','[4] Quit\n'];
